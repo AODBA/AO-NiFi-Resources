@@ -5,6 +5,10 @@ This Template will allow you authenticate againts a Salesforce ORG, using oauth2
 
 
 ![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Authenticate_To_Salesforce/imgs/SF-Auth.PNG)
+
+## You must provide the details as per the UpdateAttribute processor
+#### Gottchas : 
+ Talk to your SF Admin to enable you access to a connected app and check the ip restrictions.
 ![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Authenticate_To_Salesforce/imgs/SF-Auth-params.PNG)
 
 
