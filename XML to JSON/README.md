@@ -8,6 +8,6 @@ This flow will extract the google.com/sitemap.xml and transform it into a json f
 ![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/XML%20to%20JSON/imgs/XML2JSON.PNG)
 
 
-The TransformXml processor will have to point to the xml-to-json.xsl sheet.
+The TransformXml processor will have to point to the [xml-to-json.xsl](https://github.com/AODBA/AO-NiFi-Resources/blob/master/xml-to-json.xsl) sheet.
 
 
