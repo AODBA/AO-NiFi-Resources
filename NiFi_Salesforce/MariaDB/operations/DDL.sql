@@ -1,0 +1,19 @@
+CREATE DATABASE SF;
+CREATE TABLE SF.`SFProdMetrics` (
+  `Env` varchar(45) DEFAULT NULL,
+  `UpdateDate` datetime DEFAULT NULL,
+  `DailyApiRequestsMax` int(11) DEFAULT NULL,
+  `DailyApiRequestsRemaining` int(11) DEFAULT NULL,
+  `DailyAsyncApexExecutionsMax` int(11) DEFAULT NULL,
+  `DailyAsyncApexExecutionsRemaining` int(11) DEFAULT NULL,
+  `DailyBulkApiRequestsMax` int(11) DEFAULT NULL,
+  `DailyBulkApiRequestsRemaining` int(11) DEFAULT NULL,
+  `DailyWorkflowEmailsMax` int(11) DEFAULT NULL,
+  `DailyWorkflowEmailsRemaining` int(11) DEFAULT NULL,
+  `DataStorageMBMax` int(11) DEFAULT NULL,
+  `DataStorageMBRemaining` int(11) DEFAULT NULL,
+  `DurableStreamingApiConcurrentClientsMax` int(11) DEFAULT NULL,
+  `DurableStreamingApiConcurrentClientsRemaining` int(11) DEFAULT NULL,
+  `FileStorageMBMax` int(11) DEFAULT NULL,
+  `FileStorageMBRemaining` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
