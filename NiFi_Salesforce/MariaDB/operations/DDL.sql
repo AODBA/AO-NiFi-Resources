@@ -1,5 +1,5 @@
-CREATE DATABASE SF;
-CREATE TABLE SF.`SFProdMetrics` (
+CREATE DATABASE operatons;
+CREATE TABLE operatons.`SFProdMetrics` (
   `Env` varchar(45) DEFAULT NULL,
   `UpdateDate` datetime DEFAULT NULL,
   `DailyApiRequestsMax` int(11) DEFAULT NULL,
