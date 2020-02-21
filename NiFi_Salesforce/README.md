@@ -10,4 +10,4 @@ Apache NiFi is using the Salesforce Rest Api to do:
 - Salesforce TraceLogs Setup and Purge Cycle
 - Etc...  
 
-
+Flow will get really complicated, but also really interesting 
