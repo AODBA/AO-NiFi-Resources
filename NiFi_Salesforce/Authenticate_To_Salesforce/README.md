@@ -5,7 +5,7 @@ This Template will allow you authenticate againts a Salesforce ORG, using oauth2
 
 
 ![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Authenticate_To_Salesforce/imgs/SF-Auth.PNG)
-![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Authenticate_To_Salesforce/imgs/SF-Aut-params.PNG)
+![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Authenticate_To_Salesforce/imgs/SF-Auth-params.PNG)
 
 
 # If you are trying to auth against a PROD org use 
