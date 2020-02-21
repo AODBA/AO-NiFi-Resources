@@ -19,5 +19,5 @@ If you open Salesforce schema builder you can get dizzy very fast :). Salesforce
 
 
 # Flow file Template 
-![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Extract_Salesforce_Objects/Extract_Salesforce_Objects.xml)
+[Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Extract_Salesforce_Objects/Extract_Salesforce_Objects.xml)
 ![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_Salesforce/Extract_Salesforce_Objects/imgs/sf-get-objects.PNG)
