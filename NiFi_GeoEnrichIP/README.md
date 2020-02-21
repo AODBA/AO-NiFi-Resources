@@ -1,7 +1,7 @@
-# GeoEnrichIP in Apache NiFi
+# GeoEnrichIP in Apache
 
 
-- Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/NiFi_GeoEnrichIP/XML_to_JSON.xml)
+- Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/NiFi_GeoEnrichIP/IpEnrich.xml)
 
 This flow will extract the google.com/sitemap.xml and transform it into a json file.
 
