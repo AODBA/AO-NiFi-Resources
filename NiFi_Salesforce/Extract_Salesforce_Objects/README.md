@@ -4,7 +4,7 @@ Before we start getting deep into reading and writing to and from Salesforce we 
 
 If you open Salesforce schema builder you can get dizzy very fast :). Salesforce schema can get very complex and the relationship chain gets very very complicated.
 ### Here is a sample 
-imgs/sf-schema.png
+![Salesforce Schema Builder](https://github.com/AODBA/AO-NiFi-Resources/NiFi_Salesforce/Extract_Salesforce_Objects/imgs/sf-schema.png)
 
 
 ## Apache NiFi to help us extract the schema from SF and create a similar schema in our MariaDB database.
@@ -18,3 +18,5 @@ imgs/sf-schema.png
 
 
 
+# Flow file Template 
+![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/NiFi_Salesforce/Extract_Salesforce_Objects/Extract_Salesforce_Objects.xml)
