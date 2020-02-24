@@ -2,7 +2,7 @@
 
 ### The flow is extracting data from http://free.currencyconverterapi.com.
 
-- Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/AUD_to_USD_Conversion_Flow/AUD_to_USD_Conversion_Flow.xml)
+- Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/blob/master/AUD_to_USD_Conversion_Flow/AUD_to_USD_Conversion_Flow.xml)
 
 This flow will extract the last 24 hours
 
