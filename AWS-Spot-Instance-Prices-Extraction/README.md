@@ -1,6 +1,6 @@
 # AWS Spot Instance Price extraction with Apache NiFi 
 
-- the flow is extracting data from the ec2 api.
+### The flow is extracting data from the ec2 api.
 
 - Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/AWS-Spot-Instance-Prices-Extraction/AWS-Spot-Price.xml)
 
