@@ -1,12 +1,21 @@
-# GeoEnrichIP in Apache
+# AWS Spot Instance Price extraction with Apache NiFi 
 
 
-- Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/NiFi_GeoEnrichIP/IpEnrich.xml)
+- Import the template from [Apache NiFi Flow Template](https://github.com/AODBA/AO-NiFi-Resources/AWS-Spot-Instance-Prices-Extraction/AWS-Spot-Price.xml)
 
-This flow will enrich an ip address.
+This flow will extract the last 24 hours of spot instance pricing
 
-![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_GeoEnrichIP/imgs/IpEnrich.PNG)
-![GeoEnrichIP](https://github.com/AODBA/AO-NiFi-Resources/blob/master/NiFi_GeoEnrichIP/imgs/IpEnrich2.PNG)
-
+![Apache NiFi Flow diagram](https://github.com/AODBA/AO-NiFi-Resources/blob/master/AWS-Spot-Instance-Prices-Extraction/imgs/AWS-spot-price-01.PNG)
 
 
+## Data is stored into a MariaDB database under a table called
+```
+CREATE DATABASE aws;
+CREATE TABLE aws.SpotPriceHistory (
+  PriceTimestamp datetime DEFAULT NULL,
+  AvailabilityZone varchar(50) DEFAULT NULL,
+  InstanceType varchar(50) DEFAULT NULL,
+  ProductDescription varchar(500) DEFAULT NULL,
+  SpotPrice decimal(15,9) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
