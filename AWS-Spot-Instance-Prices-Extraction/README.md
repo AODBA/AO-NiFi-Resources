@@ -19,3 +19,8 @@ CREATE TABLE aws.SpotPriceHistory (
   SpotPrice decimal(15,9) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
+
+
+# To Do
+- need to add more info on the time dimensions used in the initial query.
+- add final use case (Grafana Dashboard)
